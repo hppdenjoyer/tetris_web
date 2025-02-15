@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+    <link href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container py-4">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <h1 class="mb-4">Tetris</h1>
+                <div class="game-container">
+                    <canvas id="gameCanvas" width="300" height="600"></canvas>
+                    <div class="game-info ms-4">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5>Score: <span id="score">0</span></h5>
+                                <h5>Level: <span id="level">1</span></h5>
+                                <h5>Lines: <span id="lines">0</span></h5>
+                            </div>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button id="startBtn" class="btn btn-primary">Start Game</button>
+                            <button id="pauseBtn" class="btn btn-secondary" disabled>Pause</button>
+                        </div>
+                        <div class="controls mt-4">
+                            <h5>Controls:</h5>
+                            <p>↑ - Rotate</p>
+                            <p>← → - Move</p>
+                            <p>↓ - Soft Drop</p>
+                            <p>Space - Hard Drop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/tetris.js"></script>
+    <script src="/static/js/game.js"></script>
+</body>
+</html>

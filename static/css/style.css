@@ -1,0 +1,26 @@
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px auto;
+}
+
+#gameCanvas {
+    background-color: var(--bs-dark);
+    border: 2px solid var(--bs-secondary);
+}
+
+.game-info {
+    text-align: left;
+}
+
+.controls {
+    background-color: var(--bs-dark);
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid var(--bs-secondary);
+}
+
+.controls p {
+    margin-bottom: 0.5rem;
+}
