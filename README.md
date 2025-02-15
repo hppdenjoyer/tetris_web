@@ -27,7 +27,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/hppdenjoyer/tetris-web.git
+git clone https://github.com/hppdenjoyer/tetris_web.git
 cd tetris-web
 ```
 
